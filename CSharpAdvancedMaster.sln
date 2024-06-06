@@ -133,89 +133,91 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.FunctionalProgramming", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.DefiningClasses", "06.DefiningClasses", "{4CA7E8AC-2A05-42C9-9C26-6406F3BC137C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ReverseAString", "01.Lectures\01.StacksAndQueues\01.ReverseAString\01.ReverseAString.csproj", "{256C1A2F-CF52-4D3C-ABBF-FF8ED206E75B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.ReverseAString", "01.Lectures\01.StacksAndQueues\01.ReverseAString\01.ReverseAString.csproj", "{256C1A2F-CF52-4D3C-ABBF-FF8ED206E75B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.StackSum", "01.Lectures\01.StacksAndQueues\02.StackSum\02.StackSum.csproj", "{8923302B-539D-40B2-AF47-84CED17D984B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.StackSum", "01.Lectures\01.StacksAndQueues\02.StackSum\02.StackSum.csproj", "{8923302B-539D-40B2-AF47-84CED17D984B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SimpleCalculator", "01.Lectures\01.StacksAndQueues\03.SimpleCalculator\03.SimpleCalculator.csproj", "{C39668AF-C64D-48CB-A242-ED5044232EE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.SimpleCalculator", "01.Lectures\01.StacksAndQueues\03.SimpleCalculator\03.SimpleCalculator.csproj", "{C39668AF-C64D-48CB-A242-ED5044232EE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MatchingBrackets", "01.Lectures\01.StacksAndQueues\04.MatchingBrackets\04.MatchingBrackets.csproj", "{D5D3C303-F94F-4339-8483-054ABDD318B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.MatchingBrackets", "01.Lectures\01.StacksAndQueues\04.MatchingBrackets\04.MatchingBrackets.csproj", "{D5D3C303-F94F-4339-8483-054ABDD318B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.PrintEvenNumbers", "01.Lectures\01.StacksAndQueues\05.PrintEvenNumbers\05.PrintEvenNumbers.csproj", "{5FF34BE9-3594-4A3B-AE02-5AD2F6BE9F1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.PrintEvenNumbers", "01.Lectures\01.StacksAndQueues\05.PrintEvenNumbers\05.PrintEvenNumbers.csproj", "{5FF34BE9-3594-4A3B-AE02-5AD2F6BE9F1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Supermarket", "01.Lectures\01.StacksAndQueues\06.Supermarket\06.Supermarket.csproj", "{6978695E-4785-4651-88E8-0A589231BF6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.Supermarket", "01.Lectures\01.StacksAndQueues\06.Supermarket\06.Supermarket.csproj", "{6978695E-4785-4651-88E8-0A589231BF6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.HotPotato", "01.Lectures\01.StacksAndQueues\07.HotPotato\07.HotPotato.csproj", "{B1299F78-3BB5-4176-994E-6FDE9112D615}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.HotPotato", "01.Lectures\01.StacksAndQueues\07.HotPotato\07.HotPotato.csproj", "{B1299F78-3BB5-4176-994E-6FDE9112D615}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.TrafficJam", "01.Lectures\01.StacksAndQueues\08.TrafficJam\08.TrafficJam.csproj", "{7A4383EA-ECD4-4459-BA07-6446271EB69D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.TrafficJam", "01.Lectures\01.StacksAndQueues\08.TrafficJam\08.TrafficJam.csproj", "{7A4383EA-ECD4-4459-BA07-6446271EB69D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SumMatrixElements", "01.Lectures\02.MultidimensionalArrays\01.SumMatrixElements\01.SumMatrixElements.csproj", "{BF4C146F-8858-46A5-923C-E32F43710664}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.SumMatrixElements", "01.Lectures\02.MultidimensionalArrays\01.SumMatrixElements\01.SumMatrixElements.csproj", "{BF4C146F-8858-46A5-923C-E32F43710664}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SumMatrixColumns", "01.Lectures\02.MultidimensionalArrays\02.SumMatrixColumns\02.SumMatrixColumns.csproj", "{67B291E8-7617-4186-A030-C456BB965C04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SumMatrixColumns", "01.Lectures\02.MultidimensionalArrays\02.SumMatrixColumns\02.SumMatrixColumns.csproj", "{67B291E8-7617-4186-A030-C456BB965C04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.PrimaryDiagonal", "01.Lectures\02.MultidimensionalArrays\03.PrimaryDiagonal\03.PrimaryDiagonal.csproj", "{BB2ACDEE-0EB1-4074-A730-9657951BC1DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.PrimaryDiagonal", "01.Lectures\02.MultidimensionalArrays\03.PrimaryDiagonal\03.PrimaryDiagonal.csproj", "{BB2ACDEE-0EB1-4074-A730-9657951BC1DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SymbolInMatrix", "01.Lectures\02.MultidimensionalArrays\04.SymbolInMatrix\04.SymbolInMatrix.csproj", "{7BD95341-2DBB-41E3-83FD-97B47237C837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.SymbolInMatrix", "01.Lectures\02.MultidimensionalArrays\04.SymbolInMatrix\04.SymbolInMatrix.csproj", "{7BD95341-2DBB-41E3-83FD-97B47237C837}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SquareWithMaximumSum", "01.Lectures\02.MultidimensionalArrays\05.SquareWithMaximumSum\05.SquareWithMaximumSum.csproj", "{52FBC7E6-6D83-4F49-B566-FE9F0B03D23E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SquareWithMaximumSum", "01.Lectures\02.MultidimensionalArrays\05.SquareWithMaximumSum\05.SquareWithMaximumSum.csproj", "{52FBC7E6-6D83-4F49-B566-FE9F0B03D23E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.JaggedArrayModification", "01.Lectures\02.MultidimensionalArrays\06.JaggedArrayModification\06.JaggedArrayModification.csproj", "{D03EB6ED-926D-40EF-A09C-1AFC02110E6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.JaggedArrayModification", "01.Lectures\02.MultidimensionalArrays\06.JaggedArrayModification\06.JaggedArrayModification.csproj", "{D03EB6ED-926D-40EF-A09C-1AFC02110E6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.PascalTriangle", "01.Lectures\02.MultidimensionalArrays\07.PascalTriangle\07.PascalTriangle.csproj", "{ECA6DD1E-BBDA-477C-A7DE-DFFD17471A09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.PascalTriangle", "01.Lectures\02.MultidimensionalArrays\07.PascalTriangle\07.PascalTriangle.csproj", "{ECA6DD1E-BBDA-477C-A7DE-DFFD17471A09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CountSameValues", "01.Lectures\03.SetsAndDictionaries\01.CountSameValues\01.CountSameValues.csproj", "{3CE42F6B-BFEA-42B9-92BE-43CB4E017DF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.CountSameValues", "01.Lectures\03.SetsAndDictionaries\01.CountSameValues\01.CountSameValues.csproj", "{3CE42F6B-BFEA-42B9-92BE-43CB4E017DF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.AverageStudentGrades", "01.Lectures\03.SetsAndDictionaries\02.AverageStudentGrades\02.AverageStudentGrades.csproj", "{AA6B4F42-6043-4673-9D5F-2AC9EE55F871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.AverageStudentGrades", "01.Lectures\03.SetsAndDictionaries\02.AverageStudentGrades\02.AverageStudentGrades.csproj", "{AA6B4F42-6043-4673-9D5F-2AC9EE55F871}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.LargestThreeNumbers", "01.Lectures\03.SetsAndDictionaries\03.LargestThreeNumbers\03.LargestThreeNumbers.csproj", "{DA253621-1D34-470F-B8D0-7BEBAF5E8F58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.LargestThreeNumbers", "01.Lectures\03.SetsAndDictionaries\03.LargestThreeNumbers\03.LargestThreeNumbers.csproj", "{DA253621-1D34-470F-B8D0-7BEBAF5E8F58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.ProductShop", "01.Lectures\03.SetsAndDictionaries\04.ProductShop\04.ProductShop.csproj", "{2E6D3B89-EF52-4D84-BF94-921ED488DC35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.ProductShop", "01.Lectures\03.SetsAndDictionaries\04.ProductShop\04.ProductShop.csproj", "{2E6D3B89-EF52-4D84-BF94-921ED488DC35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CitiesByContinentAndCountry", "01.Lectures\03.SetsAndDictionaries\05.CitiesByContinentAndCountry\05.CitiesByContinentAndCountry.csproj", "{CEA89CB8-8B8D-4651-B4FD-28199FCB2E94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.CitiesByContinentAndCountry", "01.Lectures\03.SetsAndDictionaries\05.CitiesByContinentAndCountry\05.CitiesByContinentAndCountry.csproj", "{CEA89CB8-8B8D-4651-B4FD-28199FCB2E94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.UniqueNames", "01.Lectures\03.SetsAndDictionaries\06.UniqueNames\06.UniqueNames.csproj", "{A643A648-06E5-4B07-BB96-0DF7D5D94DFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.UniqueNames", "01.Lectures\03.SetsAndDictionaries\06.UniqueNames\06.UniqueNames.csproj", "{A643A648-06E5-4B07-BB96-0DF7D5D94DFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.ParkingLot", "01.Lectures\03.SetsAndDictionaries\07.ParkingLot\07.ParkingLot.csproj", "{ECF3B16B-3FF3-4395-B838-BD824C7C58DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.ParkingLot", "01.Lectures\03.SetsAndDictionaries\07.ParkingLot\07.ParkingLot.csproj", "{ECF3B16B-3FF3-4395-B838-BD824C7C58DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.SoftUniParty", "01.Lectures\03.SetsAndDictionaries\08.SoftUniParty\08.SoftUniParty.csproj", "{14A4D13C-E6B7-4AD9-BEE7-C0A396280E32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.SoftUniParty", "01.Lectures\03.SetsAndDictionaries\08.SoftUniParty\08.SoftUniParty.csproj", "{14A4D13C-E6B7-4AD9-BEE7-C0A396280E32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.CustomSet", "01.Lectures\03.SetsAndDictionaries\09.CustomSet\09.CustomSet.csproj", "{F00D0BCC-73D7-4343-9E54-6AB258DA51BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.CustomSet", "01.Lectures\03.SetsAndDictionaries\09.CustomSet\09.CustomSet.csproj", "{F00D0BCC-73D7-4343-9E54-6AB258DA51BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.OddLines", "01.Lectures\04.StreamsFilesAndDirectories\01.OddLines\01.OddLines.csproj", "{2EE7F291-F00A-4491-8670-FC5DC9620756}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.OddLines", "01.Lectures\04.StreamsFilesAndDirectories\01.OddLines\01.OddLines.csproj", "{2EE7F291-F00A-4491-8670-FC5DC9620756}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.LineNumbers", "01.Lectures\04.StreamsFilesAndDirectories\02.LineNumbers\02.LineNumbers.csproj", "{6DFF63D9-8A2B-4090-B0B4-3035DC1651DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.LineNumbers", "01.Lectures\04.StreamsFilesAndDirectories\02.LineNumbers\02.LineNumbers.csproj", "{6DFF63D9-8A2B-4090-B0B4-3035DC1651DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WordCount", "01.Lectures\04.StreamsFilesAndDirectories\03.WordCount\03.WordCount.csproj", "{83B708DE-D83B-4E6C-8FCB-8930C8FACDEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.WordCount", "01.Lectures\04.StreamsFilesAndDirectories\03.WordCount\03.WordCount.csproj", "{83B708DE-D83B-4E6C-8FCB-8930C8FACDEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MergeFiles", "01.Lectures\04.StreamsFilesAndDirectories\04.MergeFiles\04.MergeFiles.csproj", "{4C1A19C4-570D-4EA3-B1DC-5689E1D84686}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.MergeFiles", "01.Lectures\04.StreamsFilesAndDirectories\04.MergeFiles\04.MergeFiles.csproj", "{4C1A19C4-570D-4EA3-B1DC-5689E1D84686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ExtractSpecialBytes", "01.Lectures\04.StreamsFilesAndDirectories\05.ExtractSpecialBytes\05.ExtractSpecialBytes.csproj", "{BF726D7C-BCC1-4EEC-AFC7-37505E5B4931}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.ExtractSpecialBytes", "01.Lectures\04.StreamsFilesAndDirectories\05.ExtractSpecialBytes\05.ExtractSpecialBytes.csproj", "{BF726D7C-BCC1-4EEC-AFC7-37505E5B4931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.SplitMergeBinaryFiles", "01.Lectures\04.StreamsFilesAndDirectories\06.SplitMergeBinaryFiles\06.SplitMergeBinaryFiles.csproj", "{17FD0C4D-4D15-433E-8DB4-468BB8728084}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.SplitMergeBinaryFiles", "01.Lectures\04.StreamsFilesAndDirectories\06.SplitMergeBinaryFiles\06.SplitMergeBinaryFiles.csproj", "{17FD0C4D-4D15-433E-8DB4-468BB8728084}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.FolderSize", "01.Lectures\04.StreamsFilesAndDirectories\07.FolderSize\07.FolderSize.csproj", "{0FE258D8-7459-4153-8653-F4A648A6F873}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.FolderSize", "01.Lectures\04.StreamsFilesAndDirectories\07.FolderSize\07.FolderSize.csproj", "{0FE258D8-7459-4153-8653-F4A648A6F873}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SortEvenNumbers", "01.Lectures\05.FunctionalProgramming\01.SortEvenNumbers\01.SortEvenNumbers.csproj", "{FE0E36FF-CEE7-4CC5-9587-3D7B2A08057B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.SortEvenNumbers", "01.Lectures\05.FunctionalProgramming\01.SortEvenNumbers\01.SortEvenNumbers.csproj", "{FE0E36FF-CEE7-4CC5-9587-3D7B2A08057B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SumNumbers", "01.Lectures\05.FunctionalProgramming\02.SumNumbers\02.SumNumbers.csproj", "{8F6403EC-ADDD-4E16-822B-ECED9FF854E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SumNumbers", "01.Lectures\05.FunctionalProgramming\02.SumNumbers\02.SumNumbers.csproj", "{8F6403EC-ADDD-4E16-822B-ECED9FF854E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CountUppercaseWords", "01.Lectures\05.FunctionalProgramming\03.CountUppercaseWords\03.CountUppercaseWords.csproj", "{04B00CFC-C433-4AE7-9802-C91E9971344F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.CountUppercaseWords", "01.Lectures\05.FunctionalProgramming\03.CountUppercaseWords\03.CountUppercaseWords.csproj", "{04B00CFC-C433-4AE7-9802-C91E9971344F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.AddVAT", "01.Lectures\05.FunctionalProgramming\04.AddVAT\04.AddVAT.csproj", "{008347EA-1177-4A5C-BBB2-87701913E226}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.AddVAT", "01.Lectures\05.FunctionalProgramming\04.AddVAT\04.AddVAT.csproj", "{008347EA-1177-4A5C-BBB2-87701913E226}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FilterByAge", "01.Lectures\05.FunctionalProgramming\05.FilterByAge\05.FilterByAge.csproj", "{450E5D26-E428-430A-ABC8-EC92F67B81CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.FilterByAge", "01.Lectures\05.FunctionalProgramming\05.FilterByAge\05.FilterByAge.csproj", "{450E5D26-E428-430A-ABC8-EC92F67B81CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00.MyLinq", "01.Lectures\05.FunctionalProgramming\00.MyLinq\00.MyLinq.csproj", "{04143FFC-FACF-4077-BD6E-A8E7BD7075C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00.MyLinq", "01.Lectures\05.FunctionalProgramming\00.MyLinq\00.MyLinq.csproj", "{04143FFC-FACF-4077-BD6E-A8E7BD7075C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Car", "01.Lectures\06.DefiningClasses\01.Car\01.Car.csproj", "{C19A5416-94FD-443F-8BDD-028FAAA5436E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Car", "01.Lectures\06.DefiningClasses\01.Car\01.Car.csproj", "{C19A5416-94FD-443F-8BDD-028FAAA5436E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CarExtension", "01.Lectures\06.DefiningClasses\02.CarExtension\02.CarExtension.csproj", "{C66C5A0D-5D5A-4EDD-BC7B-881A23CD7416}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.CarExtension", "01.Lectures\06.DefiningClasses\02.CarExtension\02.CarExtension.csproj", "{C66C5A0D-5D5A-4EDD-BC7B-881A23CD7416}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CarConstructors", "01.Lectures\06.DefiningClasses\03.CarConstructors\03.CarConstructors.csproj", "{37E32766-1232-4B5D-9F30-5F79F161E918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.CarConstructors", "01.Lectures\06.DefiningClasses\03.CarConstructors\03.CarConstructors.csproj", "{37E32766-1232-4B5D-9F30-5F79F161E918}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CarEngineAndTires", "01.Lectures\06.DefiningClasses\04.CarEngineAndTires\04.CarEngineAndTires.csproj", "{24B06A45-86D7-41A1-8CAF-F410E7A2EE3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.CarEngineAndTires", "01.Lectures\06.DefiningClasses\04.CarEngineAndTires\04.CarEngineAndTires.csproj", "{24B06A45-86D7-41A1-8CAF-F410E7A2EE3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SpecialCars", "01.Lectures\06.DefiningClasses\05.SpecialCars\05.SpecialCars.csproj", "{52835AA3-6772-4FD6-9B87-D618B1DAD6CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SpecialCars", "01.Lectures\06.DefiningClasses\05.SpecialCars\05.SpecialCars.csproj", "{52835AA3-6772-4FD6-9B87-D618B1DAD6CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00.Demo", "01.Lectures\04.StreamsFilesAndDirectories\00.Demo\00.Demo.csproj", "{0D9DA514-399F-4DCB-924A-27002076075B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -591,6 +593,10 @@ Global
 		{52835AA3-6772-4FD6-9B87-D618B1DAD6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52835AA3-6772-4FD6-9B87-D618B1DAD6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52835AA3-6772-4FD6-9B87-D618B1DAD6CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9DA514-399F-4DCB-924A-27002076075B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9DA514-399F-4DCB-924A-27002076075B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9DA514-399F-4DCB-924A-27002076075B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9DA514-399F-4DCB-924A-27002076075B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -700,6 +706,7 @@ Global
 		{37E32766-1232-4B5D-9F30-5F79F161E918} = {4CA7E8AC-2A05-42C9-9C26-6406F3BC137C}
 		{24B06A45-86D7-41A1-8CAF-F410E7A2EE3E} = {4CA7E8AC-2A05-42C9-9C26-6406F3BC137C}
 		{52835AA3-6772-4FD6-9B87-D618B1DAD6CB} = {4CA7E8AC-2A05-42C9-9C26-6406F3BC137C}
+		{0D9DA514-399F-4DCB-924A-27002076075B} = {2F8F4F3D-7FA5-4E85-B872-58F2CE1FD815}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA2FE6C6-C3B9-495C-A2DC-0D86A214D5C3}
