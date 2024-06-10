@@ -1,6 +1,10 @@
 ﻿
 using System;
+using System.Diagnostics;
+using System.Linq.Expressions;
 using System.Reflection.Metadata.Ecma335;
+using System.Runtime.Intrinsics.X86;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 public static class Program
 {
@@ -146,7 +150,101 @@ public static class Program
 
         // =======================================================================================//
 
-        // Lambda Expressions
+        // Lambda Expressions 
+        // Lambda Expressions are anonymous functions containing expressions and statements
+        // **** Lambda syntax in C#
+        // ▪ Use the lambda operator "=>"(goes to)
+        // ▪ Parameters can be enclosed in parentheses()
+        // ▪ The body holds the expression or statement and can be enclosed in braces { }
+
+        // ***Lambda Expressions in C#
+        // * Implicit lambda expression
+        // msg => Console.WriteLine(msg);
+        // * Explicit lambda expression
+        // (String msg) => { Console.WriteLine(msg); }
+        // * Zero parameters
+        // () => { Console.WriteLine("hi"); }
+        // * Multiple parameters
+        // (int x, int y) => { return x + y; }
+
+        List<int> numbers = new() { 12, 3, 56 };
+        numbers = numbers.Where(n => n % 2 == 0).ToList();
+        // (n => n % 2 == 0) това е ламбда функция
+        Console.WriteLine(string.Join(", ", numbers));
+
+        // =======================================================================================//
+
+        // ****** Delegates, Functions, Actions, Predicates ******
+        // ***** Func<T, TResult>, Action<T>, Predicate<T>
+
+        // *** Generic Delegates: Func<T, TResult>
+        // Func = return
+        //                              // {            lambda expression           }
+        // <input type, output type> name = input parameter "n" => return expression
+        Func<int, string> func = n => n.ToString();
+        // ▪ Initialization of a function
+        // ▪ Input and output type can be different types
+        // ▪ Input and output type must be from the declared type
+        // ▪ Func <…> delegate uses type parameters to define the number and types of input parameters and returns the type of the delegate
+
+        // *** Generic Delegates: Action<T>
+
+        // Action = void може да върне нищо
+        // ▪ In.NET Action<T> is a void method:
+        // private void Print(string message)
+        //     { Console.WriteLine(message); }
+
+        // ▪ Instead of writing the method we can do:
+        // Action<string> print =
+        //     message => Console.WriteLine(message);
+
+        // ▪ Then we use it like that:
+        // print("Peter"); // Peter
+        //     print(5.ToString()); // 5
+
+        // това става като малка анонимна функция
+        Action<string> printName = name => Console.WriteLine(name);
+        //горното и долното са идентични
+        static void PrintName(string name)
+        {
+            Console.WriteLine(name);
+        }
+
+        /*
+        *** когато са повече от 1 променливи ни трябват скоби
+        Action<string, string> printName = (string firstName, string lastName) =>
+        {
+            Console.WriteLine(firstName + " " + lastName);
+        };
+
+        //горното и долното са идентични
+        PrintName("Ivan", "Atanasov");
+        static void PrintName(string firstName, string lastName)
+        {
+            Console.WriteLine(firstName + " " + lastName);
+        }
+
+        *** Друг пример
+        
+        Func<int, int, int> sum = (x, y) => x + y;
+
+        Console.WriteLine(Sum(5, 10));
+
+        int Sum(int x, int y)
+        {
+            return x + y;
+        }
+        */
+
+        // *** Generic Delegates: Predicate<T>
+        // ▪ In .NET Predicate<T> is a Boolean method:
+        // приема само един параметър и изкарва bool
+        Predicate<int> isNegative = x => x < 0;
+        Console.WriteLine(isNegative(5)); // false
+        Console.WriteLine(isNegative(-5)); // true
+        var numbrs = new List<int> { 3, 5, -2, 10, 0, -3 };
+        var negs = numbrs.FindAll(isNegative);
+        Console.WriteLine(string.Join(", ", negs)); // -2, -3
 
     }
 }
