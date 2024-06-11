@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq.Expressions;
 using System.Reflection.Metadata.Ecma335;
@@ -56,7 +57,7 @@ public static class Program
         // *** Always produce the same output with the same arguments disregard of other factors (deterministic)
         // * No other input data besides the input parameters
         // * The output value of a function depends only on the arguments that are passed to the function
-     
+
         Console.WriteLine(Sum(5, 10));
         static int Sum(int x, int y)
         {
@@ -237,6 +238,7 @@ public static class Program
         */
 
         // *** Generic Delegates: Predicate<T>
+
         // ▪ In .NET Predicate<T> is a Boolean method:
         // приема само един параметър и изкарва bool
         Predicate<int> isNegative = x => x < 0;
@@ -246,6 +248,61 @@ public static class Program
         var negs = numbrs.FindAll(isNegative);
         Console.WriteLine(string.Join(", ", negs)); // -2, -3
 
-    }
-}
+        // ***** Delegates
+        // всичките гореспоменати функции са делегати направени и готови за използване (ние може да си създадем собствени такива)
 
+        // *** A delegate in C# is a data type that holds a method with a certain parameter list and return type
+        // ▪ Used to pass methods as arguments to other methods
+        // ▪ Can be used to define callback methods
+
+        // ---това не е много четимо спрямо
+        Func<int, int, int> multiply = (x, y) => x * y;
+        // ---това тук, правят едно и също
+        MathOperation multiply1 = (x, y) => x * y;
+        MathOperation add = (x, y) => x + y;
+
+        int mult = multiply1(3, 5); // 15
+        int sum = add(3, 5); // 8
+
+
+
+        // =======================================================================================//
+
+
+        // ****** Higher - Order Functions ******
+
+        // ***** Functions as Parameters to Other Functions
+
+        // *** We can pass Func<T> to methods:
+        int Operation(int number, Func<int, int> operation)
+        {
+            return operation(number);
+        }
+        // Higher-order function: take a function as parameter
+
+        // *** We pass lambda function to the higher-order function
+        int a = 5;
+        int b = Operation(a, number => number * 5); // 25
+        int c = Operation(a, number => number - 3); // 2
+        int D = Operation(b, number => number % 2); // 1
+        Console.WriteLine(b);
+        Console.WriteLine(c);
+        Console.WriteLine(D);
+
+        // *** more examples
+        long Aggregate(int start, int end, Func<long, long, long> op)
+        {
+            long result = start;
+            for (int i = start + 1; i <= end; i++)
+                result = op(result, i);
+            return result;
+        }
+        Aggregate(1, 10, (a, b) => a + b); // 55
+        Aggregate(1, 10, (a, b) => a * b); // 3628800
+        Aggregate(1, 10, (a, b) => long.Parse("" + a + b)); // 12345678910
+    }
+    // --- създаваме делегат който приема 2 стойности и връща един int MathOperation е изход типа
+    // трябва да е извън мейн метода
+    // ако нямаме допълнителните скоби с програм и мейн метод то е правилно да го поставим най-отдолу за да разбере програмата че е извън скрития мейн метод
+    public delegate int MathOperation(int x, int y);
+}
