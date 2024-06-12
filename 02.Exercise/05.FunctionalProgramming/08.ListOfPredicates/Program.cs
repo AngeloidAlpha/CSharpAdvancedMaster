@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+int n = int.Parse(Console.ReadLine());
+List<int> numbers = Enumerable.Range(0, n).ToList();
+
+int[] dividers = Console.ReadLine()
+    .Split()
+    .Select(int.Parse)
+    .ToArray();
+
