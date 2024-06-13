@@ -54,5 +54,36 @@ foreach (var item in submissions.OrderByDescending(x => x.Value).ThenBy(x => x.K
     Console.WriteLine($"{item.Key} - {item.Value}");
 }
 /*
+Peter-Java-84
+George-C#-70
+George-C#-84
+Sam-C#-94
+exam finished
 
+result:
+
+Results:
+Sam | 94
+George | 84
+Peter | 84
+Submissions:
+C# - 3
+Java - 1
+
+Peter-Java-91
+George-C#-84
+Sam-JavaScript-90
+Sam-C#-50
+Sam-banned
+exam finished
+
+result:
+
+Results:
+Peter | 91
+George | 84
+Submissions:
+C# - 2
+Java - 1
+JavaScript - 1
 */
