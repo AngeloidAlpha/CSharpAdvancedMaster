@@ -25,12 +25,13 @@ while (command != "Print")
 
     command = Console.ReadLine();
 }
-Func<List<string>, string, string, List<string>> filterNames = (names, operation, value) =>
+// тука вместо да имаме проверки извикваме директно ключа и value-то което е фукцията за смятане
+Dictionary<string, Func<string, string, bool>> predicate = new()
 {
-    return operation == "Starts with" ? names.Where(x => x.StartsWith(value)).ToList()
-    : operation == "Ends with" ? names.Where(x => x.EndsWith(value)).ToList()
-    : operation == "Contains" ? names.Where(x => x.Contains(value)).ToList()
-    : names.Where(x => x.Length == int.Parse(value)).ToList();
+    { "Starts with",  (name, value) => name.StartsWith(value) },
+    { "Ends with",  (name, value) => name.EndsWith(value) },
+    { "Contains",  (name, value) => name.Contains(value) },
+    { "Length", (name, value) => name.Length == int.Parse(value) },
 };
 
 foreach (string items in operations)
@@ -38,10 +39,7 @@ foreach (string items in operations)
     string[] operationInfo = items.Split(";", StringSplitOptions.RemoveEmptyEntries);
     string operation = operationInfo[0];
     string value = operationInfo[1];
-    // на този ред става филтрацията на името
-    List<string> filteredNames = filterNames(names, operation, value);
-    // тука искаме да презапишем всички имена от листа като изключим това което сме намерили от предишния ред
-    names = names.Where(x => !filteredNames.Contains(x)).ToList();
+    names = names.Where(name => !predicate[operation](name, value)).ToList();
 }
 Console.WriteLine(string.Join(" ", names));
 /*
