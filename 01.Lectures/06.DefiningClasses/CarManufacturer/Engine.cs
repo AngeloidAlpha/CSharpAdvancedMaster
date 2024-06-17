@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace CarManufacturer
 {
+    // задача 4
     public class Engine
     {
         private int horsePower;
         private double cubicCapacity;
 
-        Engine (int horsePower, double cubicCapacity)
+        public Engine (int horsePower, double cubicCapacity)
         {
             this.HorsePower = horsePower;
             this.CubicCapacity = cubicCapacity;

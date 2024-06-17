@@ -39,9 +39,12 @@ namespace CarManufacturer
             this.FuelQuantity = fuelQuantity;
             this.FuelConsumption = fuelConsumption;
         }
-        public Car(Engine engine)
+        // задача 4
+        public Car(string make, string model, int year, double fuelQuantity, double fuelConsumption, Engine engine, Tire[] tires) 
+            : this(make, model, year, fuelQuantity, fuelConsumption)
         {
-
+            this.Engine = engine;
+            this.Tires = tires;
         }
 
         public string Make { get { return make; } set { make = value; } }
@@ -49,8 +52,8 @@ namespace CarManufacturer
         public int Year { get { return year; } set { year = value; } }
         public double FuelQuantity { get { return fuelQuantity; } set { fuelQuantity = value; } }
         public double FuelConsumption { get { return fuelConsumption; } set { fuelConsumption = value; } }
-        public Engine Engine { get { return engine; } set { engine = value; } }
-        public Tire[] Tires { get { return this.Tires; } set { this.Tires = value; } }
+        public Engine Engine { get { return this.engine; } set { this.engine = value; } }
+        public Tire[] Tires { get { return this.tires; } set { this.tires = value; } }
 
         public void Drive(double distance)
         {
