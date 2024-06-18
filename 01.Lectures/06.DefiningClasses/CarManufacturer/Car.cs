@@ -73,7 +73,8 @@ namespace CarManufacturer
             sb.AppendLine($"Make: {this.Make}");
             sb.AppendLine($"Model: {this.Model}");
             sb.AppendLine($"Year: {this.Year}");
-            sb.AppendLine($"Fuel: {this.FuelQuantity:F2}");
+            sb.AppendLine($"HorsePowers: {this.Engine.HorsePower}");
+            sb.AppendLine($"FuelQuantity: {this.FuelQuantity}");
 
             return sb.ToString().TrimEnd();
         }

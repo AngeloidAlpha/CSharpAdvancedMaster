@@ -1,2 +1,43 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/*
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DefiningClasses
+{
+    public class StartUp
+    {
+        static void Main(string[] args)
+        {
+            Person person = new Person { Name = "Stosh", Age = 33 };
+
+            Console.WriteLine(person.Name);
+            Console.WriteLine(person.Age);
+        }
+    }
+}
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DefiningClasses
+{
+    public class Person
+    {
+        private string name;
+        private int age;
+
+        public string Name { get { return name; } set { name = value; } }
+        public int Age { get { return age; } set { age = value; } }
+    }
+}
+
+
+
+*/
