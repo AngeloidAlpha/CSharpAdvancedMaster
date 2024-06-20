@@ -50,10 +50,10 @@ for (int i = 0; i < n; i++)
 // запопочваме да приемаме команди за flammable or frigile cargo type
 string targetCargoType = Console.ReadLine();
 cars
-    .Where(x => x.Cargo.Type == targetCargoType
+    .Where(car => car.Cargo.Type == targetCargoType
     && (targetCargoType == "fragile"
-    ? x.Tires.Any(x => x.Pressure < 1)
-    : x.Engine.Power > 250))
+    ? car.Tires.Any(x => x.Pressure < 1)
+    : car.Engine.Power > 250))
     .ToList()
     .ForEach(x => Console.WriteLine(x.Model));
 /*

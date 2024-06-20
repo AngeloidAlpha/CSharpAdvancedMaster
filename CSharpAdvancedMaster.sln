@@ -227,6 +227,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarDataBank", "02.Exercise\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateCalculation", "02.Exercise\06.DefiningClasses\DateCalculation\DateCalculation.csproj", "{C9700B36-83F9-491D-86CF-AC9413863F7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonTrainer", "02.Exercise\06.DefiningClasses\PokemonTrainer\PokemonTrainer.csproj", "{AF983835-B875-4359-BB90-0E4EFEC0B1E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -609,6 +611,10 @@ Global
 		{C9700B36-83F9-491D-86CF-AC9413863F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9700B36-83F9-491D-86CF-AC9413863F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9700B36-83F9-491D-86CF-AC9413863F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF983835-B875-4359-BB90-0E4EFEC0B1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF983835-B875-4359-BB90-0E4EFEC0B1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF983835-B875-4359-BB90-0E4EFEC0B1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF983835-B875-4359-BB90-0E4EFEC0B1E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -721,6 +727,7 @@ Global
 		{83E589B1-61EA-40D1-945B-24A38BB99A4D} = {55878BE6-CD50-406C-8B59-9178C85300AD}
 		{B86593A6-F278-42D6-866A-A45BAC51E0CD} = {55878BE6-CD50-406C-8B59-9178C85300AD}
 		{C9700B36-83F9-491D-86CF-AC9413863F7F} = {55878BE6-CD50-406C-8B59-9178C85300AD}
+		{AF983835-B875-4359-BB90-0E4EFEC0B1E8} = {55878BE6-CD50-406C-8B59-9178C85300AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA2FE6C6-C3B9-495C-A2DC-0D86A214D5C3}
